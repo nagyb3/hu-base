@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Programme;
+    src: url(Programme-Regular.ttf);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 400;
+    /* color: white; */
+    font-size: 7vw;
+    font-family: Programme, serif;
+}
+
+body {
+    /* background-color: #fb4c0b; */
+    /* background-color: #6c2404; */
+    /* background-color: #ff966f; */
+    background-color: #d4f44e;
+}
