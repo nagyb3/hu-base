@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Programme, serif;
 }
 
 @font-face {
@@ -23,10 +24,95 @@ h1 {
     font-family: Programme, serif;
 }
 
-body {
+header {
     /* background-color: #fb4c0b; */
     /* background-color: #6c2404; */
     /* background-color: #ff966f; */
     /* background-color: #d4f44e; */
-    background-color: rgb(212, 244, 78);
+    background-color: rgb(214, 255, 49);
+    border-bottom: 8px double black;
+}
+
+div.first {
+    background-color: white;
+    height: 80vh;
+    border-bottom: 8px double black;
+}
+
+
+div.second {
+    height: 70vh;
+    /* background-color: #ff7c3a;; */
+    background-color: #4f302d;
+    color: white;
+    box-sizing: border-box;
+}
+
+.box-shadow {
+    box-shadow: 10px 15px 26px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: 10px 15px 26px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 15px 26px -4px rgba(0,0,0,1);
+}
+
+a.instagram {
+    color: black;
+    font-size: 6vw;
+}
+
+a.instagram:hover {
+    position: relative;
+    top: 1px;
+}
+
+svg.cursor {
+    height: 5vw;
+    position: relative;
+    /* right: -3vw; */
+    top: -5vw;
+}
+
+svg.cursor:hover {
+    top: calc(-5vw + 3px); 
+}
+
+.first > .container {
+    height: 100%;
+}
+
+a.youtube {
+    color: white;
+    font-size: 6vw;
+}
+
+a.youtube:hover {
+    position: relative;
+    top: 1px;
+}
+
+.second > .container {
+    height: 100%;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    list-style-type: none;
+}
+
+a.github {
+    color: white;
+}
+
+footer a {
+    color: white;
 }
